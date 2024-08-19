@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E181F1"
+    tools:context=".Wta">
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Module-5"
+        android:textColor="#150C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="m5"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.724" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Module-4"
+        android:textColor="#150C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="m4"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Module-3"
+        android:textColor="#150C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="m3"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="209dp"
+        android:layout_height="53dp"
+        android:text="WTA Notes"
+        android:textAlignment="center"
+        android:textColor="#011061"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="110dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#07680B"
+        android:onClick="bck"
+        android:text="Back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F61A0A"
+        android:onClick="hom"
+        android:text="Home"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Module-1"
+        android:textColor="#150C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="m1"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Module-2"
+        android:textColor="#150C0C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="m2"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
